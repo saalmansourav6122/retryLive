@@ -1,4 +1,4 @@
-// font
+// font 
 @import url("//hello.myfonts.net/count/30d80a");
 @font-face { 
 	font-family: 'futura-light';
@@ -125,5 +125,47 @@ li{
     color: #fff;
     font-size: 1.2rem;
     font-family: 'futura-light';
+}
+.opneMenu{
+    margin: -30px 45px;
+    font-weight: 900;
+    color: #000;
+    font-size: 25px;
+    display: none;
+}
+.closeMenu{
+    display: none;
+}
+@media(max-width:980px){
+    .header-box{
+        display: none;
+    }
+    .header-logo a{ 
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 600;
+        justify-content: center;
+    }
+    .post-slider .next{
+        display: none;
+    }
+    .post-slider .prev{
+        display: none;
+    }
+    .opneMenu{
+        display: block;
+    }
+}
+@media(max-width:280px){
+    .header-logo a{ 
+        display: flex;
+        font-size: 0.8rem;
+        font-weight: 600;
+        justify-content: center;
+    }
+    .opneMenu{
+        margin: -25px 45px;
+        font-size: 15px;
+    }
 }
 //  hero-sider end
