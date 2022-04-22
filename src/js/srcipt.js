@@ -3,7 +3,7 @@ $('.post-wrapper').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 7000,
     nextArrow: $(".next"),
     prevArrow: $(".prev"),
     responsive: [
